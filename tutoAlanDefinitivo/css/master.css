@@ -1,0 +1,26 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+#contenedor{
+  width: 100vw;
+  height: 100vh;
+  background: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  text-transform: uppercase;
+}
+#contenedor h1{
+  font-size: 20vh;
+  padding: 8vh;
+  border: 3vh solid #fff;
+  color: red;
+  margin: auto;
+  transition: 0.5s ease;
+}
+#contenedor h1:hover{
+  transform: scale(1.3);
+  color: blue;
+}
